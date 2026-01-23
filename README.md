@@ -39,33 +39,30 @@ The UI is designed to be minimal, modern, and user-friendly.
 
 ## 📸 Screenshots
 
-All screenshots are located in the `assets/images` directory.
+All screenshots are located in the `assets/image` directory.
 
-### 🏠 Home Screen
-Displays promotional banners, product categories, and best-selling items.
-
-![Home Screen](assets/image/Screenshot_20260123_192622.jpg)
-
----
-
-### ❤️ Wishlist Screen
-Shows products saved by the user for later.
-
-![Wishlist Screen](assets/image/Screenshot_20260123_192655.jpg)
-
----
-
-### 📄 Product Details Screen
-Displays full product information including description, specifications, available colors, and add-to-cart action.
-
-![Product Details](assets/image/Screenshot_20260123_192635.jpg)
-
----
-
-### 🛒 Cart Screen
-Shows selected products with quantity controls and a complete price breakdown.
-
-![Cart Screen](assets/image/Screenshot_20260123_192711.jpg)
+<table>
+  <tr>
+    <td align="center">
+      <b>Home Screen</b><br>
+      <img src="assets/image/Screenshot_20260123_192622.jpg" width="220"/>
+    </td>
+    <td align="center">
+      <b>Wishlist Screen</b><br>
+      <img src="assets/image/Screenshot_20260123_192655.jpg" width="220"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Product Details</b><br>
+      <img src="assets/image/Screenshot_20260123_192635.jpg" width="220"/>
+    </td>
+    <td align="center">
+      <b>Cart Screen</b><br>
+      <img src="assets/image/Screenshot_20260123_192711.jpg" width="220"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -76,5 +73,5 @@ Shows selected products with quantity controls and a complete price breakdown.
 - **Delivery Fee**: Fixed cost  
 - **Total**: Subtotal + Tax + Delivery  
 
-This logic updates dynamically based on cart changes.
+The total price updates dynamically based on cart changes.
 
